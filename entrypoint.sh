@@ -1,3 +1,3 @@
 #!/bin/sh -l
 
-dotnet build
+dotnet build --configuration Release --no-restore
