@@ -7,5 +7,6 @@ then
   echo "::set-output name=profile::$profile"
 else
   echo "Not working"
+fi
 #time=$(date)
 #echo "::set-output name=time::$time"
