@@ -23,7 +23,7 @@ jobs:
         with:
           dotnet-version: 5.0.100-rc.1.20452.10
 
-      - name: Show WebApp Profile
+      - name: Build using dotnet
         shell: bash
         run: |
           ${{ steps.hello.outputs.profile }}
