@@ -11,8 +11,10 @@ inputs:
     required: true
     default : 'dotnet'
 outputs:
-  time: # id of output
-    description: 'The time we greeted you'
+  #time: # id of output
+   # description: 'The time we greeted you'
+  profile: 
+    description: 'Command to run'
 runs:
   using: 'docker'
   image: 'Dockerfile'
