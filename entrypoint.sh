@@ -1,6 +1,6 @@
 #!/bin/sh -l
 
-if [ "$a" == "dotnet" ]
+if [ "$a" == dotnet ]
 then
   echo "hello"
 else
