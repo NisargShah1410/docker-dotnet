@@ -1,12 +1,7 @@
 #!/bin/sh -l
 
 echo "Hello $2"
-if [$2 == $2]
-then 
-  profile="dotnet build"
-  echo "::set-output name=profile::$profile"
-else
-  echo "Not working"
-fi
+profile="dotnet build"
+echo "::set-output name=profile::$profile"
 #time=$(date)
 #echo "::set-output name=time::$time"
