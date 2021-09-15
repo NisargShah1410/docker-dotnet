@@ -2,7 +2,8 @@
 
 if [ "$2" == 'dotnet' ]
 then
-  echo "hello"
+  profile="dotnet build"
+  echo "::set-output name=profile::$profile"
 else
   echo "Nothing"
 fi
