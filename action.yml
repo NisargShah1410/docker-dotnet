@@ -25,3 +25,4 @@ runs:
   args:
     - ${{ inputs.who-to-greet }}
     - ${{ inputs.language }}
+    - ${{ inputs.path-to-solution }}
