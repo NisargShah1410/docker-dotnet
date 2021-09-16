@@ -4,6 +4,9 @@ if [ "$2" == 'dotnet' ]
 then
   profile="dotnet build $3"
   echo "::set-output name=profile::$profile"
+elif [ "$2" == 'angular' ]
+then
+  echo "Angular here"
 else
   echo "Nothing"
 fi
