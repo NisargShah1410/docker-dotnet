@@ -6,7 +6,7 @@ then
   echo "::set-output name=profile::$profile"
 elif [ "$2" == 'angular' ]
 then
-  profile="npm install"
+  profile="npm install\n npm run build"
   echo "::set-output name=profile::$profile"
 else
   echo "Nothing"
