@@ -10,8 +10,8 @@ inputs:
     description: 'Language chosen'
     required: true
     default : 'dotnet'
-  path-to-solution: 
-    description: 'Solution file path for dotnet app'
+  path-to-proj: 
+    description: 'Project file path for dotnet app'
     required: false
     
 outputs:
@@ -25,4 +25,4 @@ runs:
   args:
     - ${{ inputs.who-to-greet }}
     - ${{ inputs.language }}
-    - ${{ inputs.path-to-solution }}
+    - ${{ inputs.path-to-proj }}
