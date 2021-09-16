@@ -7,9 +7,13 @@ inputs:
     required: true
     default: 'World'
   language:
-    description: 'Lnaguage chosen'
+    description: 'Language chosen'
     required: true
     default : 'dotnet'
+  path-to-solution: 
+    description: 'Solution file path for dotnet app'
+    required: false
+    
 outputs:
   #time: # id of output
    # description: 'The time we greeted you'
