@@ -6,7 +6,8 @@ then
   echo "::set-output name=profile::$profile"
 elif [ "$2" == 'angular' ]
 then
-  echo "Angular here"
+  profile="npm install"
+  echo "::set-output name=profile::$profile"
 else
   echo "Nothing"
 fi
