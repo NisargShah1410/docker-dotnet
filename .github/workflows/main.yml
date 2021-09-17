@@ -12,7 +12,7 @@ jobs:
        # run: chmod +x entrypoint.sh
       
       - name: Hello world action step
-        uses: ./ #NisargShah1410/gh-docker-demo@v2.1 # Uses an action in the root directory
+        uses: NisargShah1410/gh-docker-demo@v1 # Uses an action in the root directory
         id: hello
         with:
           who-to-greet: 'Mona the Octocat'
