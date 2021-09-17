@@ -8,8 +8,12 @@ elif [ "$2" == 'angular' ]
 then
   profile="npm install && npm run build --if-present"
   echo "::set-output name=profile::$profile"
+elif [ "$2" == 'python' ]
+then
+  profile="python -m pip install --upgrade pip && pip install -r requirements.txt"
+  echo "::set-output name=profile::$profile"
 else
-  echo "Nothing"
+  echo "Please select from dotnet , angular or python"
 fi
 
 #echo "Hello $2"
