@@ -16,7 +16,7 @@ jobs:
         id: hello
         with:
           who-to-greet: 'Mona the Octocat'
-          language: 'angular'
+          language: 'python'
           path-to-proj: '.'
           
       - name: Setup .NET Core
